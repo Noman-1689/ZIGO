@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+:root{
+
+    height: 100%;
+}
+
+/* Equivalent Simple CSS */
+.linkStyle {
+  padding: 0.75rem 1.5rem; 
+  transition-duration: 0.3s; /* Equivalent to transition */
+}
+
+.linkStyle:hover {
+  background-color: #edf2f7; /* Equivalent to hover:bg-neutral-100 */
+  color: #3b82f6;
+}
+
+.leaflet-bottom,
+.leaflet-control,
+.leaflet-pane,
+.leaflet-top {
+  z-index: 0 !important;
+}
+
+.rdrMonth {
+  width: 100% !important;
+}
+
+.rdrCalendarWrapper {
+  font-size: 16px !important;
+  width: 100% !important;
+}
+
+
